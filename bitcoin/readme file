@@ -1,1 +1,17 @@
-
+Readme file
+The project of AES includes 3 functions. They are as follows:
+1.targetfun() : this function is responsible of generation of random 256 bit target by putting the starting bits as zero for the difficulty value entered by user.The result is being stored in target.txt file.
+2.solutiongen(): this function randomly generates the solution and stops when 
+hash(m||s)<=t which is stopping condition for finding solution where m is the input read from the file input.txt and target is read from file target.txt being generated in the previous function.
+3.verification(): this function is basically used to check whether the solution generated is right or not by checking condition hash(m||s)<=t and prints 1 if solution satisfies this condition or prints 0 otherwise where input "m" is read from input.txt file and target from target.txt file.
+4.differentsolution(): it is the function which is used to evaluate the performance of the algorithm on different difficulty level starting from 21 and ending at 26 generating 6 solutions and all reading the input from file input.txt and calculating hash value. 
+The total time taken is being evaluated.
+Configurations:
+The Operating System used is MAC 
+java version "1.8.0_144"
+Java(TM) SE Runtime Environment (build 1.8.0_144-b01)
+Java HotSpot(TM) 64-Bit Server VM (build 25.144-b01, mixed mode) 
+Before running of the code you need:
+1. Target.txt to store of 256 bits of the target.
+2. input.txt to store 4 bytes input.
+3. Solution.txt to store solution which satisfies the condition hash(m||s)<=t .
