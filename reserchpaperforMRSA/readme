@@ -3,10 +3,4 @@ This is the project which focussed on imporvement in field of RSA. RSA is all ab
 It is difficult to hack rsa but not impossible if prime numbers are not chosen properly so that's why in MRSA or modified RSA, third party authentication is introduced.
 Basic Idea of MRSA is that if if any sender eants to send message to receiver, he will send first send the request to third party authentication, third party verifies whether the request is legitimate.
 If the request, sender and receiver are proved to be legitimate then the receiver sends the sender 4 bit round key or one time password, then normal RSA method is implemented.
-Once cipher text is generated it is circularly rotated by 1 and Shuffled using 2D matrix where number of bits generated into equal number of columns and if there is any element which is left by and does not make a part of matrix, is removed and concatenated once the shuffling is done. 
-This accounts for 1 round and is done number of times receiver has mentioned in OTP.
-This process is repeated 4 times and OTP has 4 bits.
-Once the new ciphertext is produced it is sent through the network to the receiver.
-The main plus point is that each time this OTP is generated is new and has random number of bits and shuffling and rotation is also random so, attacker requires great processing speed to actual find out how many times it is being shuffled and rotated
-Even the attacker is able to compute prime number then also e won't be able to get actual message.
-Key used is hexadecimal to reduce the overhead but is of same impact as normal RSA.
+Once cipher text is generated it is circularly rotated by 1 and Shuffled using 2D matrix.
