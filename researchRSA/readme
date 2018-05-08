@@ -1,1 +1,5 @@
-
+readme file
+This is the research project which focuses on analysis of one of the predominant algorithm of security RSA. 
+RSA is the public cryptosystem which is used most of the areas such online transactions, communications, bitcoin's transcations etc.
+This project involves comparison of RSA implementation in 2 different languages c/c++ and Java, and comparison is done
+Comparison is based on different parameters such as "time complexity", "key size", "accuracy" etc. 
