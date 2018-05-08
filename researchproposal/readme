@@ -1,1 +1,5 @@
-
+Readme file
+This is the research proposal which emphasizes on proposing an algorithm which can improve the condition of scheduling. 
+Scheduling is very important process in managing the resources being used in operating system, all the existing methods of scheduling such as FCFS, shortest Job First etc. helps in managing the resoures in their own ways but still the problem of starvation is common. 
+So this algorithm focuses on proposing an alogrithm which not only not only curbs the problem of starvation but helps in managing the process efficiently..
+This researh proposal proposes the algorithm in simple english so that it cn be easily understood by readers and with the experimental example description the actual working of the project is also demonstrated. 
